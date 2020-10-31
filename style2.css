@@ -1,0 +1,91 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+      box-sizing: border-box;
+    
+
+}
+
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section{
+    background-color: #eff5ef;
+    display: block;
+    height: 100vh;
+    
+}
+h1{
+    color: blue;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: x-large;
+    font-weight: bold;
+    font-weight: 400;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.center{
+    width: 60%;
+    background-color: rgb(144, 144, 112);
+    margin: auto;
+    
+    height: 70vh;
+    
+    background-color: #ffffff;
+    box-shadow: 0px 20px 20px #00000030;
+}
+.details{
+    display:block;
+    margin: auto;
+    text-align: center;
+    padding-top: 31px;
+    height: 120px;
+    margin-bottom: 30px;
+}
+label{
+    margin-bottom: 30px;
+    font-size: 36px;
+    color:green;
+    font-family: fantasy;
+}
+input{
+    margin-top: 10px;
+   font-size: large;
+   font-weight: bold;
+    height: 40px;
+    width: 200px;
+    background-color: rgba(255, 68, 0, 0.623);
+    
+}
+.imgdiv{
+  
+    width:200px ;
+    margin: auto;
+    margin-bottom: 45px;
+    
+
+}
+button{
+   
+   display: block;
+   width: 190px;
+   height: 45px;
+   margin: auto;
+   font-weight: bold;
+   font-size: large;
+   background-color: olive;
+}
+button:hover{
+    box-shadow: 10px 20px 20px #0000008a;
+   
+}
+
+button:active{
+    box-shadow: 10px 20px 20px #000000b0;
+    left: 1px;
+    top: 1px;
+}
